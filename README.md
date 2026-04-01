@@ -1,6 +1,8 @@
 Profit Analysis Tool (V1)
 
-A Python-based tool that analyzes Pokemon card listings by comparing eBay prices to PriceCharting values to identify potentially profitable flips.
+A Python-based tool that analyzes resale listings by comparing market prices across sources to identify potentially profitable flips.
+
+The first version of this project focuses on Pokémon cards as an initial use case, with the long-term goal of expanding into other collectible and resale categories.
 
 Overview -
 

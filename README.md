@@ -2,11 +2,11 @@ Profit Analysis Tool
 
 A Python-based tool that analyzes resale listings by comparing market prices across sources to identify potentially profitable flips.
 
-The first version of this project focuses on Pokémon cards as an initial use case, with the long-term goal of expanding into other collectible and resale categories.
+The first version of this project focuses on Pokémon cards, with the long-term goal of expanding into other collectible and resale markets.
 
 Overview -
 
-This project helps identify whether a Pokemon card is a good deal based on potential profit after estimated eBay fees.
+This project evaluates whether a Pokémon card is a good deal based on estimated profit after eBay fees.
 It was built as part of my Python learning journey, applying programming to a real-world use case: card reselling and market analysis.
 
 Features
@@ -38,49 +38,49 @@ Tech Used -
 
 - Python
 - Command Line Interface (CLI)
-- Lists
-- Dictionaries
+- Lists & Dictionaries
 - Functions
+- File I/O (CSV)
 
 Project Structure
 - profit_analysis.py
+- profit_data.csv
 - README.md
 
 How to Run -
-- Clone the repository:
 - git clone https://github.com/justindestry2/profit-analysis.git
-- Navigate into the project folder:
 - cd profit-analysis
-- Run the program:
 - python profit_analysis.py
 
 Example Output
 
-Enter card name: Charizard PSA 10
+Card: Charizard PSA 10
 
-Enter eBay price: 120
+eBay price: $120.00
 
-Enter PriceCharting price: 200
+PriceCharting price: $200.00
 
 Profit: $56.00
 
 Status: Good Deal
 
 Future Improvements -
-- Export results to CSV
-- Pull live data from eBay
+- Pull live data from eBay API
 - Pull live data from PriceCharting
 - Add filtering by grade, set, or card type
-- Build a simple UI or dashboard
+- Build a UI or dashboard
+- Expand to other resale categories (e.g. sneakers, collectibles)
 
 What I Learned - 
-- How to break a program into reusable functions
-- How to work with loops and user input
-- How to store structured data using dictionaries
-- How to solve a real-world business problem with Python
+- Breaking programs into reusable functions
+- Input validation using loops and exceptions
+- Working with structured data (lists & dictionaries)
+- Writing data to CSV files
+- Applying Python to a real-world business problem
 
 Long-Term Goal
-This project is the starting point for a larger tool: a live Pokemon card arbitrage tracker that scans marketplaces and highlights profitable opportunities in real time.
+This project is the foundation for a larger tool:
+A live arbitrage tracker that scans marketplaces and identifies profitable opportunities in real time.
 
 Author -
 

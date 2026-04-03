@@ -43,16 +43,16 @@ Tech Used -
 - Functions
 
 Project Structure
-- profit_analysis_v1.py
+- profit_analysis.py
 - README.md
-- 
+
 How to Run -
 - Clone the repository:
 - git clone https://github.com/justindestry2/profit-analysis.git
 - Navigate into the project folder:
 - cd profit-analysis
 - Run the program:
-- python profit_analysis_v1.py
+- python profit_analysis.py
 
 Example Output
 

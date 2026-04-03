@@ -1,4 +1,4 @@
-Profit Analysis Tool (V1)
+Profit Analysis Tool
 
 A Python-based tool that analyzes resale listings by comparing market prices across sources to identify potentially profitable flips.
 
@@ -67,7 +67,6 @@ Profit: $56.00
 Status: Good Deal
 
 Future Improvements -
-- Add input validation with try/except
 - Export results to CSV
 - Pull live data from eBay
 - Pull live data from PriceCharting
